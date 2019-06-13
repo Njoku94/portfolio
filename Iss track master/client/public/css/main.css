@@ -1,0 +1,257 @@
+body {
+  background-image: url("/images/b3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Doppio One', sans-serif;
+  color: #F1F0F5;
+  min-height: 100vh;
+}
+
+.main-container {
+  margin: 0px 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: #F1F0F5;
+  font-size: 2.7rem;
+  font-family: 'Share Tech', sans-serif;
+}
+
+#people-in-space {
+  max-width: 150px;
+}
+
+#iss-icon {
+  width: 64px;
+  margin: 0px 15px;
+}
+
+#astronaut-icon {
+  width: 150px;
+}
+#mapid {
+  width: 60vw;
+  height: 450px;
+  border: 5px ridge #3e7999;
+  padding: 20px;
+  justify-content: center;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap-reverse;
+}
+
+#wiki-for-iss-location {
+  width: 300px;
+  font-size: 1.3rem;
+  height: 100px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-color: #27536B;
+  color: #F1F0F5;
+  border: 3px outset #1b3d4f;
+  padding: 10px;
+  font-family: 'Doppio One', sans-serif;
+  align-self: center;
+}
+
+#wiki-for-iss-location:hover {
+  background-color: #2d5d77;
+}
+
+form {
+  width: 70vw;
+  margin: auto;
+}
+
+table {
+  border: 2px solid #3e7999;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+
+table td {
+  padding: 30px;
+  background-color: #3e7999CC;
+  max-width: 160px;
+}
+
+table thead {
+  background-color: #27536B;
+}
+
+#side-bar {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 1300px) {
+    #people-in-space {
+        font-size: 1.5rem;
+    }
+
+    #side-bar {
+      width: 80vw;
+    }
+
+    td {
+      width: 60%;
+    }
+
+    p#astronaut-person {
+      width: 300px;
+    }
+
+    th {
+     font-size: 2rem;
+    }
+
+    iframe {
+      width: 80vw;
+    }
+
+    #mapid {
+      width: 80vw;
+    }
+
+    #astronaut-icon {
+      width: 180px;
+    }
+
+    p#iss-pass-time-1, {
+      font-size: 0.8rem;
+    }
+
+
+}
+
+
+
+
+.iss-live {
+  margin-top: 10px;
+}
+
+#info-row {
+  display: flex;
+  justify-content: center;
+  color: #F1F0F5;
+}
+
+#pass-times {
+  width: 400px;
+  padding-left: 15px;
+}
+
+
+
+#geo-data {
+  width: 600px;
+}
+
+#inner-geo-data {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+#cities-input {
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  height: 32px;
+  margin-top: 10px;
+  width: 45.6vw;
+  font-size: 1rem;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+}
+
+#cities-list, #countries-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#cities-list {
+  height:180px;
+  width:61vw;
+  overflow:hidden;
+  overflow-y:scroll;
+}
+
+#cities-list li, #countries-list li {
+  border: 1px solid #ddd;
+  margin-top: -1px;
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 1rem;
+  color: black;
+  display: block;
+}
+
+#cities-list li:hover, #countries-list li:hover{
+  background-color: #eee;
+  cursor: pointer;
+}
+
+#country-dropdown {
+  font-size: 1rem;
+  height: 30px;
+  width: 15vw;
+}
+
+#thumbnail {
+  align-self: center;
+  margin-right: 10px;
+
+}
+
+#pass-times, #geo-data {
+  background-color: #3e7999CC;
+}
+
+#instructions {
+  align-self: flex-start;
+  background-color: #27536BCC;
+  margin-top: 15px;
+}
+
+#instructions h2 {
+  padding: 3px 10px;
+  margin: 0px;
+}
+
+#pass-times h2 {
+  background-color: #3e799900;
+  padding: 0;
+}
+
+
+h2#whats-there {
+  margin-bottom: 3px;
+}
+
+
+
+#dragon-icon {
+  width: 128px;
+  margin: 15px 25px 15px 0px;
+}
+
+#dragons-here {
+  align-self: flex-start;
+}
+
+
+#main-column {
+  display: flex;
+  flex-direction: column;
+}
