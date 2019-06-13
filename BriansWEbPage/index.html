@@ -1,0 +1,70 @@
+<!-- Start PASTABLE Section -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="main.css" type="text/css" rel="stylesheet">
+    <title>All About CSS Box Model!</title>
+</head>
+<body>
+
+    <!-- This is night mode testing... -->
+    <button id="nightBtn">
+            <div id="nightBtnText">
+                Day Mode: 🌞
+            </div>
+        </button>
+    <!-- End night mode testing -->
+
+    <h1>The CSS Box Model</h1>
+    <nav>
+        <div class="navBar" id="myNavBar">
+            <a href="index.html" class="active">Home/Content</a>
+            <a href="padding.html">Padding</a>
+            <a href="border.html">Border</a>
+            <a href="margin.html">Margin</a>
+            <a href="javascript:void(0);" class="icon" onclick="navFunction()">
+                <strong>=</strong>
+            </a>
+        </div>
+    </nav>
+    <!-- End PASTABLE Section -->
+    <p>
+        <em>* Please resize the page to view the mobile nav-bar! *</em>
+        <div class = "row">
+            <div class ="column">
+                    <h2>APP Creator</h2>
+                    <strong>Brian Njoku</strong> is the creator of this web app<br>
+                    <em> My Passion for learning and being successful gets me up on a daily basis. I created this Web App using html,css, and javascript. As you navigate through this app you will learn some basics on Front end Technologies. </em>
+            </div>
+        </div>
+        <div class="blocks">
+            <h2>Content</h2>
+                <strong>Content</strong> within the CSS Box Model is simple; it's everything that's in the center of everything else. 
+                For example, the text on this page would be the content. <br>
+            It can be simply defined as <em>the innermost elements of the box</em>. This can refer to images, text, and anything else that is <em>not</em> in other parts of the box.<br>
+            We can look at it like this:<br>
+            <div class="marginExample">
+                <div class="borderExample">
+                    <div class="paddingExample">
+                        <div class="contentExample">
+                            I'm the Content!
+                        </div>
+                        I'm some padding!
+                    </div>
+                    I'm the border!
+                </div>
+                And I'm the margin!
+            </div>
+            Where we only care about the content for now.<br>
+            Even the text you're currently reading is content! It has other things that can be added, like padding, but for now it's just simple text.<br>
+            We also need to know <em>what is not content</em>. Actual padding is not content, nor are borders or things like spacing and outlines. Those are done in other parts of the box.<br>
+            <br>
+            <div class="continueButton"><a href="padding.html">Continue to next topic ></a></div>
+        </div>
+    </p>
+</body>
+<script src="functionality.js"></script>
+</html>
