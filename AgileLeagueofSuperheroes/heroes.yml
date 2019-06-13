@@ -1,0 +1,80 @@
+hint:
+  #hint: 'red'
+  x: 0
+
+header:
+  extends: hint
+  font: 'Allstar'
+  x: 75
+  y: 65
+  width: 680
+  height: 100
+  align: center
+  font_size: 55
+
+text:
+  extends: hint
+  font: 'Montserrat'
+  x: 85
+  y: 200
+  width: 660
+  height: 240
+  align: center
+  font_size: 30
+
+Background:
+  x: 0
+  y: 0
+  width: 825
+  height: 1125
+
+Background_cut:
+  extends: cut
+
+Avatar:
+  x: 130
+  y: 535
+  width: 600
+  height: 600
+
+Name:
+  extends: header
+
+Plus:
+  extends: text
+
+Minus:
+  extends: text
+  y: 500
+  height: 250
+  #valign: bottom
+
+but_text:
+  extends: text
+  x: 85
+  y: 400
+  width: 660
+  height: 50
+  align: center
+  font_size: 30
+
+credits:
+  font_size: 10
+  x: 50
+  y: 1050
+  angle: -1.5708
+
+# The "cut line", without rounded corners
+cut:
+  x: 37.5
+  y: 37.5
+  width: 750
+  height: 1050
+
+# The "safe zone" as defined by TheGameCrafter poker cards
+safe:
+  x: 75
+  y: 75
+  width: 675
+  height: 975
+  radius: 16
